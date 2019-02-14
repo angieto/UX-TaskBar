@@ -1,0 +1,49 @@
+.Wrapper {
+    height: 100vh;
+    position: relative;
+}
+
+.ToolBar {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Label {
+    width: 60%;
+    padding-left: 15px;
+}
+
+.Comment {
+    width: 25%;
+}
+
+.Ellipsis {
+    width: 12%;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.Form {
+    width: 100%;
+}
+
+.AddIcon {
+    border-radius: 50px;
+}
+
+.AddIcon:hover {
+    cursor: pointer;
+}
+
+.AddLink {
+    display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+    .ToolBar {
+        width: 800px;
+    }
+}
